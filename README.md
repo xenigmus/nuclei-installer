@@ -42,8 +42,8 @@ This script automates the installation and verification of several security tool
 ### Step 1: Clone the Repository
 Clone the repository containing the script:
 ```bash
-git clone <repository_url>
-cd <repository_name>
+git clone https://github.com/xenigmus/nuclei-installer
+cd  nuclei-installer
 ```
 
 ### Step 2: Make the Script Executable
@@ -100,4 +100,4 @@ This project is licensed under the GNU General Public License v3.0. You can view
 
 ---
 
-This `README.md` provides clear guidance on how to use the script, what it installs, and licensing information under GNU GPL v3.0. Remember to replace `<repository_url>` and `<repository_name>` with your actual repository information, and ensure the LICENSE file reflects the GNU GPL v3.0 terms.
+This `README.md` provides clear guidance on how to use the script, what it installs, and licensing information under GNU GPL v3.0. 
