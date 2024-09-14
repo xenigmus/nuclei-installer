@@ -135,6 +135,7 @@ verify_installations() {
         echo "Error updating Nuclei templates. Attempting to update again..."
         nuclei -update-templates
     fi
+    fi  
 
     # Verify Python libraries
     python3 -c "import requests; print('Requests version:', requests.__version__)"
