@@ -134,7 +134,6 @@ verify_installations() {
     else
         echo "Error updating Nuclei templates. Attempting to update again..."
         nuclei -update-templates
-    fi
     fi  
 
     # Verify Python libraries
